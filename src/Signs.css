@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #5d4c9a;
+  background-color: #fce1e7;
 }
 body a {
   color: white;
@@ -23,9 +23,9 @@ body a:hover{
 }
 
 .sign{
-  flex-grow: 1;
-  flex-basis: 25%;
-  background-color: #6755ab;
-  border: 2px solid #534489;
+  flex: 1 0 25%;
+  background-color: #efc9df;
+  border: 2px solid #e7d4d8;
   margin: 10px;
+  padding: 10px;
 }

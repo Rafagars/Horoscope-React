@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './Signs.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Horoscope from './Horoscope'
 
 class Signs extends Component {
 	render(){
@@ -10,7 +11,9 @@ class Signs extends Component {
 		const signsDiv = signs.map((sign, index) => {
 			return (
 				<div className="sign">
-					<h4>{sign}</h4>
+					<img className="sign-img mx-auto" alt="sign" src={`https://www.horoscope.com/images-US/signs/${sign.toLowerCase()}.png`} />
+					<h2 className="text-center">{sign}</h2>
+					<Horoscope sign={sign}/>
 				</div>
 			)
 		})
