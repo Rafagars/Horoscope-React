@@ -13,11 +13,11 @@ class Header extends Component {
             <Router>
                 <header id="header-nav" className="navbar navbar-fixed-top navbar-inverse">
                     <div className="container-fluid">
-                        <h1 id="logo"><img id="logo-img" alt="Logo" src="https://www.bergerpaints.com/resources/images/signwheel.png" /><Link to="/">Horoscope App</Link></h1>
+                        <h1 id="logo"><img id="logo-img" alt="Logo" src="https://www.bergerpaints.com/resources/images/signwheel.png" /><Link to="/Horoscope-React/">Horoscope App</Link></h1>
                     </div>
                 </header>
                         <Switch>
-                            <Route exact path="/">
+                            <Route exact path="/Horoscope-React/">
                                 <div>
                                     <Signs />
                                 </div>
