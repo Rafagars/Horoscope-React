@@ -1,13 +1,29 @@
 import React, { Component } from 'react'
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Link
+  } from "react-router-dom";
+  import Signs from './Signs'
 
 class Header extends Component {
     render(){
         return(
-            <header id="header-nav" className="navbar navbar-fixed-top navbar-inverse">
-                <div className="container">         
-                    <h1 id="logo"><img id="logo-img" src="https://www.bergerpaints.com/resources/images/signwheel.png" /><a href="#">Horoscope App</a></h1>
-                </div>
-            </header>
+            <Router>
+                <header id="header-nav" className="navbar navbar-fixed-top navbar-inverse">
+                    <div className="container-fluid">
+                        <h1 id="logo"><img id="logo-img" alt="Logo" src="https://www.bergerpaints.com/resources/images/signwheel.png" /><Link to="/">Horoscope App</Link></h1>
+                    </div>
+                </header>
+                        <Switch>
+                            <Route exact path="/">
+                                <div>
+                                    <Signs />
+                                </div>
+                            </Route>
+                        </Switch>
+                    </Router>         
             )
     }
 }
