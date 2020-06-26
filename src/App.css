@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #5d4c9a;
+}
+
+#logo-img{
+  width: 50px;
+  margin-right: 10px
+}
+#logo {
+  float: left;
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  }
+
+
+#header-nav{
+  background-color: #4b357c;
+}
+
+ #header-nav a {
+    text-decoration: none;
+    background-color: #4b357c;
+  }
+
+  #header-nav a:hover{
+    background-color:#4b357c;
+  }
+
+ #horoscope {
+  background-color: #6755ab;
+  border: 2px solid #534489;
+  padding: 10px;
+ }
+

@@ -1,0 +1,31 @@
+ .sign-img {
+  width: 150px;
+  margin: 15px 0 5px 0;
+  display: block;
+}
+
+body{
+  background-color: #5d4c9a;
+}
+body a {
+  color: white;
+}
+
+body a:hover{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#signs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sign{
+  flex-grow: 1;
+  flex-basis: 25%;
+  background-color: #6755ab;
+  border: 2px solid #534489;
+  margin: 10px;
+}
