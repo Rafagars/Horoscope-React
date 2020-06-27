@@ -16,14 +16,19 @@ class Header extends Component {
                         <h1 id="logo"><img id="logo-img" alt="Logo" src="https://www.bergerpaints.com/resources/images/signwheel.png" /><Link to="/Horoscope-React/">Horoscope App</Link></h1>
                     </div>
                 </header>
-                        <Switch>
-                            <Route exact path="/Horoscope-React/">
-                                <div>
-                                    <Signs />
-                                </div>
-                            </Route>
-                        </Switch>
-                    </Router>         
+                <Switch>
+                    <Route path="/Horoscope-React/:day">
+                        <div>
+                            <Signs/>
+                        </div>
+                    </Route>
+                    <Route exact path="/Horoscope-React/">
+                        <div>
+                            <Signs/>
+                        </div>
+                    </Route>
+                </Switch>
+            </Router>          
             )
     }
 }

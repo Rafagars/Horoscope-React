@@ -9,7 +9,7 @@ class Horoscope extends Component {
     }
 
     componentDidMount () {
-        const URL = `https://aztro.sameerkumar.website/?sign=${this.props.sign}&day=today`;
+        const URL = `https://aztro.sameerkumar.website/?sign=${this.props.sign}&day=${this.props.day}`;
         fetch(URL, {
             method: 'POST'
         }).then(response => response.json())
