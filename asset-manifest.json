@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Horoscope-React/static/css/main.fd59cc4f.chunk.css",
-    "main.js": "/Horoscope-React/static/js/main.15caae59.chunk.js",
-    "main.js.map": "/Horoscope-React/static/js/main.15caae59.chunk.js.map",
+    "main.css": "/Horoscope-React/static/css/main.95111ea6.chunk.css",
+    "main.js": "/Horoscope-React/static/js/main.54ebfb55.chunk.js",
+    "main.js.map": "/Horoscope-React/static/js/main.54ebfb55.chunk.js.map",
     "runtime-main.js": "/Horoscope-React/static/js/runtime-main.b0c421bf.js",
     "runtime-main.js.map": "/Horoscope-React/static/js/runtime-main.b0c421bf.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Horoscope-React/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.553e1773.chunk.js": "/Horoscope-React/static/js/2.553e1773.chunk.js",
-    "static/js/2.553e1773.chunk.js.map": "/Horoscope-React/static/js/2.553e1773.chunk.js.map",
+    "static/js/2.1f50eac2.chunk.js": "/Horoscope-React/static/js/2.1f50eac2.chunk.js",
+    "static/js/2.1f50eac2.chunk.js.map": "/Horoscope-React/static/js/2.1f50eac2.chunk.js.map",
     "index.html": "/Horoscope-React/index.html",
-    "precache-manifest.d98462c01c37c8de51704aa50b1fc725.js": "/Horoscope-React/precache-manifest.d98462c01c37c8de51704aa50b1fc725.js",
+    "precache-manifest.88d3a210a2a2d2a9af82207e3f2d1125.js": "/Horoscope-React/precache-manifest.88d3a210a2a2d2a9af82207e3f2d1125.js",
     "service-worker.js": "/Horoscope-React/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Horoscope-React/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.fd59cc4f.chunk.css.map": "/Horoscope-React/static/css/main.fd59cc4f.chunk.css.map",
-    "static/js/2.553e1773.chunk.js.LICENSE.txt": "/Horoscope-React/static/js/2.553e1773.chunk.js.LICENSE.txt"
+    "static/css/main.95111ea6.chunk.css.map": "/Horoscope-React/static/css/main.95111ea6.chunk.css.map",
+    "static/js/2.1f50eac2.chunk.js.LICENSE.txt": "/Horoscope-React/static/js/2.1f50eac2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b0c421bf.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.553e1773.chunk.js",
-    "static/css/main.fd59cc4f.chunk.css",
-    "static/js/main.15caae59.chunk.js"
+    "static/js/2.1f50eac2.chunk.js",
+    "static/css/main.95111ea6.chunk.css",
+    "static/js/main.54ebfb55.chunk.js"
   ]
 }
