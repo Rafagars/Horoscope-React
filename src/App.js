@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header'
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="container-fluid">
@@ -13,4 +13,4 @@ class App extends Component {
   }
 }
 
-export default App;
+

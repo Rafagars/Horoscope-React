@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Horoscope from './Horoscope'
 import { Link, useParams } from 'react-router-dom';
 
-class Signs extends Component {
+export default class Signs extends Component {
 	render(){
 		const signs = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
 
@@ -48,5 +48,3 @@ class Signs extends Component {
 		)
 	}
 }
-
-export default Signs;

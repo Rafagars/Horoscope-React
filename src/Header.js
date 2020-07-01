@@ -5,9 +5,9 @@ import {
 	Route,
 	Link
   } from "react-router-dom";
-  import Signs from './Signs'
+import Signs from './Signs'
 
-class Header extends Component {
+export default class Header extends Component {
     render(){
         return(
             <Router>
@@ -32,4 +32,3 @@ class Header extends Component {
             )
     }
 }
-export default Header
